@@ -1,12 +1,17 @@
 # Contributing Guidelines
 
-Some of TurboWarp's repositories are forks of Scratch (scratch-gui, scratch-vm, scratch-render, scratch-paint). These repositories have some special instructions denoted with **For Scratch forks:**
+Some of TurboWarp's repositories are forks of Scratch: scratch-gui, scratch-vm, scratch-render, scratch-svg-renderer, and scratch-paint. These repositories have some special instructions denoted with **For Scratch forks:**
 
 ## Bugs
 
-TurboWarp bugs should *never* be reported to the Scratch "Bugs & Glitches" forum. Open an issue in the relavent repository. If you're unsure, just open it in scratch-gui and it will get moved to the proper spot.
+TurboWarp bugs should *never* be reported to the Scratch "Bugs & Glitches" forum. Instead, you should report bugs by either:
 
-**For Scratch forks:** If you found a bug in TurboWarp, you should check to see if the bug occurs in Scratch itself. Bugs that exist in Scratch are Scratch bugs and should be submitted to Scratch, not to TurboWarp.
+ - Opening a GitHub issue in the relavent repository. If you're not sure which repository, just open it here and it will get moved to the right spot,
+ - or commenting on this Scratch profile: https://scratch.mit.edu/users/GarboMuffin/#comments
+
+Generally, bugs on GitHub are more likely to get fixed.
+
+**For Scratch forks:** You should check to see if the bug occurs in Scratch itself. Bugs that exist in Scratch are Scratch bugs and should be submitted to Scratch, not to TurboWarp.
 
 ## Pull Requests
 
