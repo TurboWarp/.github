@@ -23,4 +23,4 @@ Pull requests may take a while to be reviewed and the reviewer can often be quit
 
 ## Translations
 
-See https://github.com/TurboWarp/translations/blob/master/CONTRIBUTING.md
+See https://github.com/TurboWarp/scratch-gui/wiki/Help-translate-TurboWarp
