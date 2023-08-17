@@ -11,7 +11,7 @@ Follow up if you don't get a response within 48 hours.
 We don't have a large budget, but we take security very seriously. I will pay out a bug bounty for bugs like these:
 
  - XSS in places such as the compiler or any extension in the [official extension gallery](https://extensions.turbowarp.org/).
- - Sandbox escape (such as arbitrary file read/write) in the desktop app assuming that XSS has already been achieved (so running JS in developer tools is fair game).
+ - Sandbox escape in the desktop app (such as arbitrary file read/write) assuming that XSS has already been achieved (so running any code in developer tools is fair game).
  - Code execution/memory corruption/etc. on any of our backend servers. DoS bugs may also be considered.
  - This list is non-comprehensive.
 
@@ -22,7 +22,6 @@ Guidelines:
  - Participation in this program is contigent upon you acting in good faith.
  - No bounties for bugs you created yourself.
  - The bug needs to work on the latest version on GitHub at the time of reporting.
- - No bounties for bugs that require unreasonable user interaction or social engineering such as self-XSS.
 
 Examples of bugs that might not be eligible for a bounty:
 
