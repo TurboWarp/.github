@@ -15,7 +15,7 @@ We don't have a large budget, but we take security very seriously. I will pay ou
  - Code execution/memory corruption/etc. on any of our backend servers. DoS bugs may also be considered.
  - This list is non-comprehensive.
 
-The size of the bounty depends on the severity. Bounties start at **$25** but range up to **$50** or possibly more. The bounty can be sent in almost any form you desire or donated to a charity of your choice. The decision about whether you get a bounty and the size is ultimately up to me.
+The size of the bounty depends on the severity. Bounties start at **$25 USD** but range up to **$50 USD** or more. The bounty can be sent in almost any form you desire or donated to a charity of your choice. The decision about whether you get a bounty and the size is ultimately up to me.
 
 Guidelines:
 
