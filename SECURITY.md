@@ -17,6 +17,7 @@ We don't have a large budget, but we take security very seriously. I will pay ou
 These types of bugs may be eligible for a reduced bounty (non-comprehensive):
 
  - Backend service DoS bugs
+ - Open redirect on any TurboWarp website
  - Scratch.canFetch(), Scratch.canOpenWindow(), etc. bypass in extensions in the [official extension gallery](https://github.com/TurboWarp/extensions) (including unlisted ones)
 
 Guidelines:
