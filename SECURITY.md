@@ -33,4 +33,4 @@ Examples of bugs that might not be eligible for a bounty:
  - Bugs in upstream projects such as Scratch, Scratch Addons, Electron, Chromium, etc. Please report these to the appropriate upstreams.
  - Missing "security headers" such as X-Frame-Options or Content-Security-Policy without demonstrated impact.
  - Self-XSS.
- - Vulnerable code that is in a TurboWarp repository but does not actually run in TurboWarp, for example, extensions that have compatibility that only runs on other platforms.
+ - Vulnerable code that is in a TurboWarp repository but does not actually run anywhere in TurboWarp, for example, extensions that have compatibility code that doesn't run in TurboWarp.
