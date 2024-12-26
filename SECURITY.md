@@ -25,7 +25,7 @@ Guidelines:
  - Participation in this program is contigent upon you acting in good faith.
  - No bounties for bugs you created yourself.
  - The bug needs to work on the latest version in git at the time of reporting.
- - The bounty can be paid in almost any format you desire or be donated to a charity of your choice.
+ - The bounty can be paid in almost any format you desire or be donated to a charity of your choice. If you choose a charity, any reduced bounty will be increased to the full $20 USD.
  - The decision about whether you get a bounty and its size is ultimately up to me.
 
 Examples of bugs that might not be eligible for a bounty:
