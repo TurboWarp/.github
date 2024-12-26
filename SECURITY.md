@@ -8,7 +8,7 @@ If you don't get a response within 48 hours, post a GitHub issue asking for an u
 
 <!-- Inspired by the SerenityOS bug bounty program: https://serenityos.org/bounty/ -->
 
-We don't have a large budget, but we take security very seriously. I will pay out a bug bounty **starting at $20 USD** for high severity bugs like these (non-comprehensive):
+We don't have a large budget, but we take security very seriously. I will pay out a **$20 USD bug bounty** for high severity bugs like these (non-comprehensive):
 
  - XSS in places such as the compiler or any extension in the [official extension gallery](https://extensions.turbowarp.org/) (including unlisted ones)
  - Sandbox escape in the desktop app (such as arbitrary file read/write) assuming that XSS has already been achieved (so running any code in an extension or developer tools is fair game)
