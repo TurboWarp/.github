@@ -13,6 +13,7 @@ We don't have a large budget, but we take security very seriously. I will pay ou
  - XSS in places such as the compiler or any extension in the [official extension gallery](https://extensions.turbowarp.org/) (including unlisted ones)
  - Sandbox escape in the desktop app (such as arbitrary file read/write) assuming that XSS has already been achieved (so running any code in an extension or developer tools is fair game)
  - Code execution/memory corruption/etc. on any of our backend services.
+ - Tricking a GitHub Actions workflow into performing sensitive actions that it is not intended to perform, or leaking a secret.
 
 These types of bugs may be eligible for a reduced bounty (non-comprehensive):
 
