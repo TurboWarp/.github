@@ -10,7 +10,7 @@ If you don't get a response within 48 hours, post a GitHub issue asking for an u
 
 We don't have a large budget, but we take security very seriously. I will pay out a **$20 USD bug bounty** for high severity bugs like these (non-comprehensive):
 
- - A bug in the editor, compiler, [official extension gallery](https://github.com/TurboWarp/extensions/tree/master/extensions) (including unlisted extensions), or anywhere else that allows a project to execute arbitrary JS (XSS).
+ - A bug in the editor, compiler, [official extension gallery](https://github.com/TurboWarp/extensions/tree/master/extensions) (including unlisted extensions), or anywhere else that allows a project to execute arbitrary JS (XSS) without loading a custom extension.
  - Sandbox escape in the desktop app (such as arbitrary file read/write) under the assumption that XSS has already been achieved (so running any code in a custom extension or in developer tools is fair game)
  - Code execution/memory corruption/etc. on any of our backend services.
  - Tricking a GitHub Actions workflow into performing sensitive actions that it is not intended to perform or leaking a secret.
