@@ -35,3 +35,5 @@ Examples of bugs that might not be eligible for a bounty:
  - Missing "security headers" such as X-Frame-Options or Content-Security-Policy without demonstrated impact.
  - Self-XSS.
  - Vulnerable code that is in a TurboWarp repository but does not actually run anywhere in TurboWarp, for example, extensions that have compatibility code that doesn't run in TurboWarp.
+
+Please also prefix your email subject with "SECURITY:". This helps us know that you've read this far down and ensures it won't be accidentally ignored.
