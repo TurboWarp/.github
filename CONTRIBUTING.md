@@ -15,7 +15,7 @@ Keep in mind that you're supposed to be at least 13 years old to have a GitHub a
 
 Pull requests will be accepted for pretty much any open issue that isn't labeled "wontfix". Pull requests, especially small ones, don't necessarily need to have a matching issue.
 
-When submitting the pull request, make sure that you set the base repository to TurboWarp and not Scratch as GitHub is sometimes inconsistent about this. For example, a pull request to the TurboWarp VM should be made against TurboWarp/scratch-vm, not LLK/scratch-vm.
+When submitting the pull request, make sure that you set the base repository to TurboWarp and not Scratch as GitHub is sometimes inconsistent about this. For example, a pull request to the TurboWarp VM should be made against TurboWarp/scratch-vm, not scratchfoundation/scratch-vm.
 
 ## Translations
 
