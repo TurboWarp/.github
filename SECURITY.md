@@ -1,6 +1,6 @@
 # Reporting a vulnerability
 
-Report security vulnerabilities to [contact+security@turbowarp.org](mailto:contact+security@turbowarp.org) instead of the public issue tracker.
+Report security vulnerabilities to [contact+security@turbowarp.org](mailto:contact+security@turbowarp.org) instead of the public issue tracker. All emails sent here will be triaged by Thomas Weber, TurboWarp's maintainer.
 
 If you don't get a response within 48 hours, post a GitHub issue asking for an update. It may have been flagged as spam. (do not post any details publicly, just ask if your email was seen)
 
