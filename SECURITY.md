@@ -25,7 +25,7 @@ Guidelines:
  - No bounties for bugs you created yourself.
  - The bug needs to work on the latest version in git at the time of reporting.
  - The bounty can be paid in almost any format you desire or be donated to a charity of your choice. If you choose a charity, any reduced bounty will be increased to the full $20 USD.
- - Quality of report is a factor in bounty sizes. We can tell when you send us unreviewed AI slop and it makes you look like a fool, though it is still bounty-eligible.
+ - Quality of report is a factor in bounty sizes.
  - The decision about whether you get a bounty and its size is ultimately up to me.
 
 Examples of bugs that might not be eligible for a bounty:
@@ -37,4 +37,4 @@ Examples of bugs that might not be eligible for a bounty:
  - Vulnerable code that is in a TurboWarp repository but does not actually run anywhere in TurboWarp, for example, extensions that have compatibility code that doesn't run in TurboWarp.
  - Anything along the lines of "loading a crafted project in the editor can cause an infinite loop or use a lot of memory". TurboWarp is a programming language. Of course it can.
 
-Please also prefix your email subject with "[TW-SEC]" and tell us what AI model you used (if any). This helps us know that you've read this far down and helps you not get ignored. Note that we can tell when you used an AI, so just be honest. Not disclosing that tends to result in lower bounties.
+Please also prefix your email subject with "[TW-SEC]" and tell us what AI model you used (if any). This helps us know that you've read this far down and helps you not get ignored. We can tell when you used an AI, so just be honest. It helps us understand what models are most interesting to use in our own security scans. We consider this a required aspect of a high quality AI-assisted report, so failure to include it will result in a lower bounty on that basis.
