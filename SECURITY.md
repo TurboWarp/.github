@@ -6,8 +6,6 @@ If you don't get a response within 48 hours, post a GitHub issue asking for an u
 
 ## Bug Bounty
 
-<!-- Inspired by the SerenityOS bug bounty program: https://serenityos.org/bounty/ -->
-
 We don't have a large budget, but we take security very seriously. I will pay out a **$20 USD bug bounty** for high severity bugs like these (non-comprehensive):
 
  - A bug in the editor, compiler, [official extension gallery](https://github.com/TurboWarp/extensions/tree/master/extensions) (including unlisted extensions), or anywhere else that allows a project to execute arbitrary JS (XSS) without loading a custom extension.
@@ -27,14 +25,16 @@ Guidelines:
  - No bounties for bugs you created yourself.
  - The bug needs to work on the latest version in git at the time of reporting.
  - The bounty can be paid in almost any format you desire or be donated to a charity of your choice. If you choose a charity, any reduced bounty will be increased to the full $20 USD.
+ - Quality of report is a factor in bounty sizes. We can tell when you send us unreviewed AI slop and it makes you look like a fool, though it is still bounty-eligible.
  - The decision about whether you get a bounty and its size is ultimately up to me.
 
 Examples of bugs that might not be eligible for a bounty:
 
  - Bugs in upstream projects such as Scratch, Scratch Addons, Electron, Chromium, etc. Please report these to the appropriate upstreams.
-   - Exception: As Paper.js is unmaintained, we will maintain it ourselves. The entire Paper.js source code is in scope for the TurboWarp bug bounty.
+   - Exception: For some projects, such as Paper.js, we maintain a downstream fork due to upstream lack of maintenance of other reasons. Those forks are in scope for the bug bounty.
  - Missing "security headers" such as X-Frame-Options or Content-Security-Policy without demonstrated impact.
  - Self-XSS.
  - Vulnerable code that is in a TurboWarp repository but does not actually run anywhere in TurboWarp, for example, extensions that have compatibility code that doesn't run in TurboWarp.
+ - Anything along the lines of "loading a crafted project in the editor can cause an infinite loop or use a lot of memory". TurboWarp is a programming language. Of course it can.
 
-Please also prefix your email subject with "SECURITY:". This helps us know that you've read this far down and ensures it won't be accidentally ignored.
+Please also prefix your email subject with "[TW-SEC]" and tell us what AI model you used (if any). This helps us know that you've read this far down and helps you not get ignored. Note that we can tell when you used an AI, so just be honest. Not disclosing that tends to result in lower bounties.
